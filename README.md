@@ -13,6 +13,14 @@ The original script lacked adherence to SOLID principles and was refactored to i
 - **Liskov Substitution Principle (LSP):** Not explicitly demonstrated in this code.
 - **Interface Segregation Principle (ISP):** The `DataProcessor` interface is focused and does not force implementations to depend on unnecessary methods.
 
+## Code for Individual SOLID Principles
+
+The `solid_principle` folder contains the code examples for each individual SOLID principle, demonstrating how the principles are applied in isolation.
+
+## File Structure
+data_pipeline.py: Contains the main script with the DataProcessor, processor implementations, and DataPipeline class.
+data/: Directory containing the sample dataset (data.parquet) and the output preprocessed data (preprocessed_data.parquet).
+solid_principle/: Directory containing code examples for each individual SOLID principle.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
